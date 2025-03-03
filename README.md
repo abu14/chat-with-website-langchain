@@ -1,10 +1,17 @@
 # WebChat+ - Chat with Websites from URL
 
-<p align="center">
-  <img src="assets/HTML-rag-diagram.PNG" alt="Project Workflow">
-</p>
+
+![GitHub contributors](https://img.shields.io/github/contributors/abu14/chat-with-website-langchain)
+![GitHub forks](https://img.shields.io/github/forks/abu14/chat-with-website-langchain?style=social)
+![GitHub stars](https://img.shields.io/github/stars/abu14/chat-with-website-langchain?style=social)
+![GitHub issues](https://img.shields.io/github/issues/abu14/chat-with-website-langchain)
+![GitHub license](https://img.shields.io/github/license/abu14/chat-with-website-langchain)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/abenezer-tesfaye-191579214/)
 
 WebChat+ is an AI-powered web assistant that I built that allows anyone to interact with and extract meaningful insights from website and it's content. Built using Streamlit, LangChain, and Huggingface, WebChat+ leverages state-of-the-art language model from Mistral (Mistral-7B-Instruct-v0.2) and embeddings to facilitate intelligent conversations based on retrieved website data.
+<p align="center">
+  <img src="assets/HTML-rag-diagram.PNG" alt="Project Workflow" width="900" height="400">
+</p>
 
 ## 🚀 Features
 
@@ -20,7 +27,7 @@ WebChat+ is an AI-powered web assistant that I built that allows anyone to inter
 ## 🛠️ Installation & Setup
 #### Prerequisites
 
-```python
+```
 Python 3.8+
 pip
 A Hugging Face API token (required for model access)
@@ -57,7 +64,7 @@ HUGGINGFACEHUB_API_TOKEN=your_api_token_here
 <img src="https://img.shields.io/badge/-Requests-0052CC?style=flat&logo=python&logoColor=white">
 </p>
 
-```python
+```
 Frontend: Streamlit
 Language Models: Hugging Face Hub (e.g., Mistral-7B-Instruct-v0.2)
 Embeddings: Hugging Face Embeddings (e.g., sentence-transformers/all-MiniLM-L6-v2)
@@ -86,9 +93,9 @@ Once the application starts, follow these steps:
 - **Response Processing**: Filters and cleans responses before displaying them in chat
 
 
-📷 Screenshots
+## 📷 Screenshots
 <p align="center">
-  <img src="project_workflow.PNG" alt="Project Workflow">
+  <img src="assets/webchat_project_v1.3.PNG" alt="Project Workflow" width="900" height="400">
 </p>
 
 
@@ -96,9 +103,9 @@ Once the application starts, follow these steps:
 
 Developed by Abenezer Tesfaye
 
-GitHub: @yourusername
-Email: your.email@example.com
-LinkedIn: Your LinkedIn Profile
+- GitHub: [abu14](https://github.com/abu14/chat-with-website-langchain)
+- Email: tesfayeabenezer64@gmail.com
+
 
 
 

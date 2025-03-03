@@ -1,7 +1,7 @@
 # WebChat+ - Chat with Websites from URL
 
 <p align="center">
-  <img src="project_workflow.PNG" alt="Project Workflow">
+  <img src="assets/HTML-rag-diagram.PNG" alt="Project Workflow">
 </p>
 
 WebChat+ is an AI-powered web assistant that I built that allows anyone to interact with and extract meaningful insights from website and it's content. Built using Streamlit, LangChain, and Huggingface, WebChat+ leverages state-of-the-art language model from Mistral (Mistral-7B-Instruct-v0.2) and embeddings to facilitate intelligent conversations based on retrieved website data.

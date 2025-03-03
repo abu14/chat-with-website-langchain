@@ -9,9 +9,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/abenezer-tesfaye-191579214/)
 
 WebChat+ is an AI-powered web assistant that I built that allows anyone to interact with and extract meaningful insights from website and it's content. Built using Streamlit, LangChain, and Huggingface, WebChat+ leverages state-of-the-art language model from Mistral (Mistral-7B-Instruct-v0.2) and embeddings to facilitate intelligent conversations based on retrieved website data.
-<p align="center">
-  <img src="assets/HTML-rag-diagram.PNG" alt="Project Workflow" width="900" height="400">
-</p>
 
 ## 🚀 Features
 
@@ -30,13 +27,13 @@ WebChat+ is an AI-powered web assistant that I built that allows anyone to inter
 ```
 Python 3.8+
 pip
-A Hugging Face API token (required for model access)
+A Hugging Face API token 
 ```
 
 #### Clone the Repository
 ```
-git clone https://github.com/yourusername/WebChatPlus.git
-cd WebChatPlus
+git clone https://github.com/abu14/chat-with-website-langchain
+cd WebChat+
 ```
 
 #### Requirements
@@ -77,11 +74,11 @@ Environment Management: dotenv
 
 #### Run the Streamlit app
 Once the application starts, follow these steps:
-
+```
 1. Enter a website URL in the sidebar.
 2. Wait for content processing to complete.
 3. Ask questions related to the website content.
-
+```
 
 ## 📌 How It Works
 
@@ -92,10 +89,13 @@ Once the application starts, follow these steps:
 - **Conversational RAG Model**: Uses LangChain to retrieve relevant content and generate responses.
 - **Response Processing**: Filters and cleans responses before displaying them in chat
 
-
-## 📷 Screenshots
 <p align="center">
-  <img src="assets/webchat_project_v1.3.PNG" alt="Project Workflow" width="900" height="400">
+  <img src="assets/HTML-rag-diagram1.PNG" alt="Project Workflow" width="900" height="400">
+</p>
+
+## 📷 Screenshot
+<p align="center">
+  <img src="assets/webchat_project_v1.3.PNG" alt="Project Workflow" width="900" height="500">
 </p>
 
 
